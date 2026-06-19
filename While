@@ -2,7 +2,7 @@
 
 count=1
 
-while [ $count -ge 1 ]
+while [ $count -le 10 ]
 do
   echo "$count"
   count=$((count+1))
